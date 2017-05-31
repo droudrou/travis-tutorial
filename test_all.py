@@ -1,10 +1,5 @@
 import numpy as np
 
-env:
-  - NUMPY_VERSION=1.7.1
-  - NUMPY_VERSION=1.12.1
-
-install: pip install numpy==$NUMPY_VERSION
 
 def test_addition():
     assert 1 + 1 == 2
